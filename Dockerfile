@@ -1,4 +1,4 @@
-FROM jffbarros/teste-docker-oracle
+FROM jffbarros/containerbase
 
 #Baixa repositório com aplicação de teste e gera executável
 RUN go get -u github.com/jffbarros/testegolangdockeroracle
